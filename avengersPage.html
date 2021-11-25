@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers Movie</title>
+
+<style>
+.navbar{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 102.1%;
+    position: relative;
+    right: 20px;
+}
+.navbar a{
+    color:white;
+    float: right;
+    margin-top: 35px;
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+video{
+    width: 100%;
+    height: 400px;
+}
+#lan{
+    font-weight: bold;
+}
+#di{
+    font-weight: bold;
+}
+#showtime{
+    font-weight: bold;
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="loginForm.html" style="text-decoration:none;">Login</a>
+        
+        <a href="registrationForm.html" style="text-decoration: none;">Register</a>
+        
+        <a href="lift.html" style="text-decoration: none;">Ticket Booking</a>
+       
+        <a href="Help.html" style="text-decoration: none;">Help</a>
+    </div>
+
+     <video src="/images/videos/Avengers_ Endgame _ Official IMAX® Trailer(1080P_HD).mp4"  controls   ></video>
+
+     <img src="https://i.pinimg.com/originals/78/26/d8/7826d8ce9daba55de40e9eb514754991.gif" 
+     style="position: absolute; top: 108px; height: 400px; width: 326.5px; left: 0px;">
+     
+     <img src="https://i.pinimg.com/originals/a2/60/65/a26065234290b94aae456b6a146a655e.gif" 
+     style="position: absolute; top: 108px; height: 400px; width: 328px; right: 0px;">
+
+     <p style="background-color:pink;text-align: center;" ><b> 3D  &nbsp;&nbsp;&nbsp; Tamil, Telugu, Kannadam, Malayalam, Hindi, English </b></p>
+     <br><br><br>
+     <select name="dimension" id="di" style="margin-left: 300px;">
+           <option value="2D">2D</option>
+           <option value="3D">3D</option>
+
+     </select>
+     <select name="language" id="lan" style="margin-left: 50px;">
+         <option value="English">English</option>
+         <option value="Tamil">Tamil</option>
+         <option value="Hindi">Hindi</option>
+         <option value="Malayalam">Malayalam</option>
+         <option value="Telugu">Telugu</option>
+     </select>
+     &nbsp;&nbsp;&nbsp;
+     <select name="showtime" id="showtime">
+<option value="10 AM">Show time 10 AM</option>
+<option value="1 PM">Show time 1 PM</option>
+<option value="4 PM">Show time 4 PM</option>
+<option value="7.30 PM">Show time 7.30 PM</option>
+
+     </select>
+
+     <button style="background-color:red;  margin-left: 100px; width: 200px; height: 40px; border-radius: 20px;">
+       <a href="seats.html" style="text-decoration: none; color: white;"> Book tickets</a></button>
+
+    
+</body>
+</html>
